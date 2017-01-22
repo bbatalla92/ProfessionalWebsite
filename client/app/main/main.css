@@ -1,0 +1,141 @@
+body{
+
+}
+
+#header {
+  position: relative;
+  background-image: url(../../assets/images/backgroundImage.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height:100vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+.headerText {
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: red;
+  opacity: .8;
+}
+
+.center {
+
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.navBigMenu{
+  text-align: right;
+  height: 30px;
+  font-size: 22px;
+}
+
+.section{
+  width: auto;
+  height: auto;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+#about{
+  background-color: #edeeef !important;
+  flex-wrap: wrap;
+  min-height:80vh;
+
+}
+
+#projects{
+}
+
+#resume{
+  background-color: #edeeef !important;
+
+}
+
+h1{
+
+  color: #22A39F;
+
+}
+
+.aboutImage{
+
+  min-width: 320px;
+  max-height: 438px;
+  position: relative;
+  border-radius: 50%;
+  padding: 10px 10px;
+
+}
+
+.pageNavButtons {
+  padding: 0;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+.innerProfile{
+  display: flex;
+  justify-content: center;
+}
+
+
+.innernAboutMe{
+  justify-content: center;
+  display: block;
+  text-align: justify;
+}
+
+.innernProfileDetails{
+  width: 33%;
+  justify-content: center;
+  text-align: left;
+
+}
+
+li{
+  text-align: left;
+  margin-left: 10%;}
+
+
+.fontStyle{
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+@media screen and (max-width: 690px) {
+  .innernProfileDetails {
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+
+.menuOptions {
+  margin-right:10px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.menuOptions:hover {
+  margin-right:10px;
+  color: red;
+  cursor: pointer;
+
+}
