@@ -62,23 +62,21 @@
     <br>
 
     <div layout="column" layout-align="center center">
-      <article ng-repeat="project in featuredProjects" layout="row" layout-sm="column" layout-xs="column"
+      <article layout="row" layout-sm="column" layout-xs="column"
                style=" width: 100%; padding: 5%;" layout-align="center center">
-        <div flex="50" style="background-color: #808080; margin: auto">
-
-          <md-icon md-svg-src={{project.image}} style="width: 150px; height: 150px;"></md-icon>
-
-
+        <div flex="50" style="margin: auto">
+          <img src="assets/images/findpartyboats.PNG" alt="Find Party Boats" style="width:75%;box-shadow: 2px 4px 5px #888888;">
         </div>
 
-        <div flex="50" style="margin: auto; width: 100%">
-          <h2 style="text-align: left; margin-left: 10%">{{project.title}}</h2>
+        <div flex="50" style="margin: auto; margin-top: 0; width: 100%">
+          <h2 style="text-align: left; margin-left: 10%">Find Party Boats</h2>
+          <p>Find party boats is a website that allows party boats or charter boats all over the US to advertise their
+          company free of charge.  It has the ability to quickly search an area by zip code or state.</p>
+          <h3>Technical Details</h3>
           <table align="left">
-            <li>{{project.description[0]}}</li>
-            <li>{{project.description[1]}}</li>
-            <li>{{project.description[2]}}</li>
-
-
+            <li>Developed using AngularJs 1.X and Googles Angular Material Design library with a mobile first concept</li>
+            <li>Hosted by Firease and implements Firebase real time data base</li>
+            <li>Uses a NodeJs email client hosted by Red Hat Openshift Container Platform</li>
           </table>
 
         </div>
@@ -99,6 +97,19 @@
       <md-button class="md-raised" style="background-color: red; color: white;;" ng-click="scrollTest()"> Download
         Resume
       </md-button>
+    </div>
+
+  </section>
+
+  <section class="section" id="skills">
+
+    <h1 style="margin-top: 0">Skills</h1>
+    <br>
+    <md-divider style="width: 66%; margin: auto"></md-divider>
+    <br>
+
+    <div>
+
     </div>
 
   </section>

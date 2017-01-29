@@ -54,6 +54,11 @@ body{
 
 }
 
+#skills{
+  background-color: #edeeef !important;
+  flex-wrap: wrap;
+}
+
 #projects{
 }
 
