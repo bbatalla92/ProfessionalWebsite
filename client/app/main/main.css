@@ -45,7 +45,6 @@ body{
   width: auto;
   height: auto;
   text-align: center;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 #about{
@@ -59,8 +58,10 @@ body{
 }
 
 #resume{
-  background-color: #edeeef !important;
-
+  background-image: url("../../assets/images/phillyWallpaper.jpg");
+  background-attachment: fixed;
+  background-position: left bottom;
+  height:26vh;
 }
 
 h1{

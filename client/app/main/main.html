@@ -88,14 +88,17 @@
   </section>
 
   <section class="section" id="resume">
-    <label><h1>Resume</h1></label>
+    <div style="min-height: 26vh;position: absolute; min-width: 100%; background-color: black; opacity: .3"></div>
+    <h1 style="margin-top: 0">Resume</h1>
     <br>
     <md-divider style="width: 66%; margin: auto"></md-divider>
     <br>
 
     <div>
 
-      <md-button ng-click="scrollTest()"> Download Resume</md-button>
+      <md-button class="md-raised" style="background-color: red; color: white;;" ng-click="scrollTest()"> Download
+        Resume
+      </md-button>
     </div>
 
   </section>
@@ -106,7 +109,7 @@
     <md-divider style="width: 66%; margin: auto"></md-divider>
     <br>
 
-    <div layout="row" layout-align="center center" >
+    <div layout="row" layout-align="center center">
       <div layout="column" layout-align="start start">
         <div layout="row" layout-align="start center">
           <ng-md-icon style="color: red;" icon="location_on"></ng-md-icon>

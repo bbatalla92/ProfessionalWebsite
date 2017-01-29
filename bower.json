@@ -1,6 +1,6 @@
 {
-  "name": "kazoo",
-  "version": "0.0.0",
+  "name": "app",
+  "version": "0.0.6",
   "dependencies": {
     "angular": "^1.4.0",
     "angular-animate": "^1.4.0",
@@ -19,5 +19,5 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "client",
-  "moduleName": "kazooApp"
+  "moduleName": "app"
 }

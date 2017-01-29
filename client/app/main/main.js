@@ -1,4 +1,5 @@
 'use strict';
+(function(){
 
 angular.module('app')
   .config(['$stateProvider',function ($stateProvider) {
@@ -32,3 +33,5 @@ angular.module('app')
     }
 
   }
+
+})();

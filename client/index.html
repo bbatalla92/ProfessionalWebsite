@@ -14,8 +14,6 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="/app/main/main.css">
   <!-- endbuild -->
-  <link rel="stylesheet" href="/app/components/toolbar/toolbar.scss">
-
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
 </head>
 <body ng-app="app">
@@ -26,7 +24,7 @@
 
 <!-- Add your site or application content here -->
 
-<toolbar></toolbar>
+
 <div class="container">
   <div ui-view=""></div>
 </div>
@@ -50,11 +48,10 @@
 <!-- endbower -->
 <!-- endbuild -->
 
-<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<!-- build:js(client) scripts/scripts.js -->
 <script src="/app/app.js"></script>
 <script src="/app/main/main.js"></script>
 <script src="/app/components/toolbar/toolbar.js"></script>
-
 <!-- endbuild -->
 </body>
 </html>
